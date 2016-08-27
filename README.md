@@ -57,9 +57,9 @@ while 'paging' in jd:
     jd = json.loads(res.text)
 ```
 3.將資料做處理，分別作：
-+list的字詞統計
-+統計好的資料做排序
-+把資料寫入文字檔
++  list的字詞統計
++  統計好的資料做排序
++  把資料寫入文字檔
 
 ```python
 #透過collections套件做次數計算與字詞的排列
