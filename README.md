@@ -17,7 +17,7 @@
 
 
 5.程式碼撰寫
-ˋˋˋ
+```python
 import requests
 import json
 import jieba
@@ -32,5 +32,4 @@ url = ('https://graph.facebook.com/me/posts?since=%s&access_token=%s'%(since,tok
 #print(url)
 res = requests.get(url)
 jd = json.loads(res.text)
-
-ˋˋˋ
+```
