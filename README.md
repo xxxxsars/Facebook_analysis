@@ -50,11 +50,13 @@ words =[]
 while 'paging' in jd:
     for post in jd['data']:
         if 'message' in post:
-            temp_words = list(jieba.cut(re.sub('\W+','',post['message'])))
+            temp_words = list(jieba.cut(re.sub('\W*\d*', '', post['message'])))
+
             for word in temp_words:
                 words.append(word)
     res = requests.get(jd['paging']['next'])
     jd = json.loads(res.text)
+
 ```
 3.將資料做處理，分別作：
 +  list的字詞統計
@@ -69,7 +71,7 @@ sorted_words = sorted(dict(count_words).items(),key  = lambda x:x[1],reverse = T
 #最後將結果寫入文字檔
 with open('word.txt','w',encoding = 'utf-8') as fin:
     for word in sorted_words:
-        fin.write(word[0]+':'+str(word[1])+'\n')
+        fin.write(word[0]+' '+str(word[1])+'\n')
 ```
 
 ##Tableau操作
