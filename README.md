@@ -71,3 +71,13 @@ with open('word.txt','w',encoding = 'utf-8') as fin:
     for word in sorted_words:
         fin.write(word[0]+':'+str(word[1])+'\n')
 ```
+
+##Tableau操作
+
+1.[下載Tableau](http://www.tableau.com/zh-cn/downloads/desktop/pc64)  
+
+2.下載的版本為Desktop版，有１４天免費試用，其他免費版本也可以，下載完畢後雙擊安裝，過程都下一步即可
+
+3.開啟檔案，進行初次設定
+
+4.開啟執行完畢後的ans.txt，資料直接複製到Tableau中
