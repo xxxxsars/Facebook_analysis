@@ -79,5 +79,8 @@ with open('word.txt','w',encoding = 'utf-8') as fin:
 2.下載的版本為Desktop版，有１４天免費試用，其他免費版本也可以，下載完畢後雙擊安裝，過程都下一步即可
 
 3.開啟檔案，進行初次設定
++  按下 trial １4 day
++  填寫資料（亂填即可）
+
 
 4.開啟執行完畢後的ans.txt，資料直接複製到Tableau中
