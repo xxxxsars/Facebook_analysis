@@ -82,19 +82,19 @@ with open('word.txt','w',encoding = 'utf-8') as fin:
 
 3.開啟檔案，進行初次設定
 +  按下 trial 14 day
-+  填寫資料（亂填即可）
++  填寫資料（亂填即可）  
 ![](https://github.com/xxxxsars/Facebook_analysis/blob/master/pic/Tableau_1.png?raw=true)
 
 4.開啟執行完畢後的word.txt，資料直接複製到Tableau中(注意這邊要確認你的資料項目中只有文字，因為如果有數字交錯會造成null，因此先前在撰寫程式有利用regex取代相關錯誤文字)
-+  開啟會到以下畫面，直接將文字貼上
++  開啟會到以下畫面，直接將文字貼上  
 ![](https://github.com/xxxxsars/Facebook_analysis/blob/master/pic/Tableau_2.png?raw=true)
-+  貼上會有資料寫入畫面
++  貼上會有資料寫入畫面  
 ![](https://github.com/xxxxsars/Facebook_analysis/blob/master/pic/Tableau_%EF%BC%93.png?raw=true)
-+  選擇泡泡圖
++  選擇泡泡圖  
 ![](https://github.com/xxxxsars/Facebook_analysis/blob/master/pic/Tableau_%EF%BC%94.png?raw=true)
-+  執行後會呈現以下畫面
++  執行後會呈現以下畫面  
 ![](https://github.com/xxxxsars/Facebook_analysis/blob/master/pic/Tableau_%EF%BC%95.png?raw=true)
-+  把欄位名稱(F1)，拖曳至color ，讓資料呈現不同顏色，把數量(F2)，拖曳到size
++  把欄位名稱(F1)，拖曳至color ，讓資料呈現不同顏色，把數量(F2)，拖曳到size  
 ![](https://github.com/xxxxsars/Facebook_analysis/blob/master/pic/Tableau_%EF%BC%96.png?raw=true)
-+  結果呈現
++  結果呈現  
 ![](https://github.com/xxxxsars/Facebook_analysis/blob/master/pic/Tableau_%EF%BC%97.png?raw=true)
