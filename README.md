@@ -1,8 +1,8 @@
-#Facebook文字雲介紹與操作
+# Facebook文字雲介紹與操作
 
 
 
-##取得個人臉書token，與時間代碼:
+## 取得個人臉書token，與時間代碼:
 
 １．登入facebooke developer頁面（https://developers.facebook.com/）
 
@@ -18,7 +18,7 @@
 ![](https://github.com/xxxxsars/Facebook_analysis/blob/master/pic/time.png?raw=true)
 
 
-##程式碼撰寫
+## 程式碼撰寫
 
 1.安裝jieba模組包，其他模組皆為內建模組   
 $pip install jieba
@@ -32,7 +32,7 @@ import jieba
 import collections
 import re
 
-#輸入所需資訊
+# 輸入所需資訊
 since = '輸入上面取得的時間'
 token = '輸入你的fb token'
 url = ('https://graph.facebook.com/me/posts?since=%s&access_token=%s'%(since,token))
@@ -74,7 +74,7 @@ with open('word.txt','w',encoding = 'utf-8') as fin:
         fin.write(word[0]+' '+str(word[1])+'\n')
 ```
 
-##Tableau操作
+## Tableau操作
 
 1.[下載Tableau](http://www.tableau.com/zh-cn/downloads/desktop/pc64)  
 
